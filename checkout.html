@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Box Icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Nav -->
+    <div class="nav container">
+      <!-- Logo -->
+      <a href="index.html" class="logo">PCParts</a>
+      <!-- Cart-Icon -->
+      <a href="cart.html">
+        <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+      </a>
+    </div>
+  </header>
+
+  <div class="checkout-container container">
+    <div class="checkout-form">
+      <h2>Checkout</h2>
+      <div class="checkout-total">
+       
+      </div>
+      <form id="checkout-form">
+        <div>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" required>
+        </div>
+        <div>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname" required>
+        </div>
+        <div>
+          <label for="street">Street:</label>
+          <input type="text" id="street" name="street" required>
+        </div>
+        <div>
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" required>
+        </div>
+        <div>
+          <label for="country">Country:</label>
+          <input type="text" id="country" name="country" required>
+        </div>
+        <div>
+          <label for="postal-code">Postal Code:</label>
+          <input type="text" id="postal-code" name="postal-code" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <button type="submit" class="checkout-btn">Place Order</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer" id="footer">
+    <div class="footer-c container">
+      <div class="footer-box">
+        <h2>Pcparts</h2>
+        <div class="social">
+          <a href="#"><i class="bx bxl-pinterest-alt"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>Help</h3>
+        <a href="#">Contact Us</a>
+        <a href="#">Faq</a>
+        <a href="#">Shipment</a>
+        <a href="#">Payment</a>
+        <a href="#">Track Your Order</a>
+        <a href="#">Return Your Order</a>
+      </div>
+      <div class="footer-box">
+        <h3>Legal Info</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Return Policy</a>
+        <a href="#">Comunity</a>
+        <a href="#">Get Card</a>
+      </div>
+    </div>
+    <p class="copyright container">&#169 Pcparts</p>
+  </div>
+
+  <!-- Link To JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
